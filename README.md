@@ -2,13 +2,15 @@
 
 Bu proje, Vue 2 kullanılarak oluşturulmuş bir "Movie" uygulamasıdır. Bu uygulama, popüler filmleri listeleyebilir, film detaylarına erişebilir, filmleri favorilere ekleyebilir ve çıkartabilirsiniz. State yönetimi için Pinia kullanılmıştır ve API istekleri için Axios kullanılmıştır. Ayrıca, sayfalar arası yönlendirmeler için Vue Router kullanılmıştır.
 
+## Twitter Clone Demo Link
+Bu projenin [canlı haline ]([https://example.com](https://vue-movie-project.vercel.app/#/)) göz atabilirsiniz.
 
 ## Tech
--Vue2
--Vue Router
--Pinia
--axios
--Tailwind
+- Vue2
+- Vue Router
+- Pinia
+- axios
+- Tailwind
 
 ### Önkoşullar
 
