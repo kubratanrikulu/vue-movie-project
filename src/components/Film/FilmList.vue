@@ -1,7 +1,6 @@
 <template>
   <div class="container mx-auto p-4">
-    <h2>Film Listesi</h2>
-    <input class="bg-transparent p-3 rounded-full border-2 border-gray-800 mb-3 text-white" v-model="searchTerm" type="text" placeholder="Film ara..." />
+    <input class="bg-transparent p-3 rounded-full border-2 border-gray-800 mb-3 text-white" v-model="searchTerm" type="text" placeholder="Search Movie..." />
     <ul class="grid grid-cols-1  md:grid-cols-4 gap-6 justify-center">
       <FilmCard
         v-for="film in filteredFilms"

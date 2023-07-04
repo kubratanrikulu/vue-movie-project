@@ -44,5 +44,13 @@ export const useFilmStore = defineStore("film", {
       this.favoriteFilms.push(film);
       localStorage.setItem("favoriteFilms", JSON.stringify(this.favoriteFilms));
     },
+    removeFavoriteFilm(filmId) {
+      const favoriteFilms = useFilmStore().getFavoriteFilms;
+      const index = favoriteFilms.findIndex((film) => film.id === filmId);
+      if (index !== -1) {
+        favoriteFilms.splice(index, 1);
+        localStorage.setItem("favoriteFilms", JSON.stringify(favoriteFilms));
+      }
+    },
   },
 });

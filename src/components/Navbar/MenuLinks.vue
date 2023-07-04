@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="flex gap-x-5 items-center">
+  <div class="flex md:gap-x-5 items-center md:justify-evenly justify-center">
     <router-link v-for="item in menuItems" :key="item.path" :to="item.path">
       <span
         class="text-white font-medium text-lg p-3 flex items-center rounded-lg"

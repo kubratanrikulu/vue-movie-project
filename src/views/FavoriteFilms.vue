@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-4 h-max">
+  <div class="container mx-auto p-4 favorite-films">
     <h2>Favorite Movies</h2>
     <div v-if="favoriteFilms.length > 0">
       <ul class="grid grid-cols-1 md:grid-cols-4 gap-6 justify-center">
@@ -41,4 +41,7 @@ export default {
 </script>
 
 <style>
+.favorite-films {
+  min-height: 100vh;
+}
 </style>

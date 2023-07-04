@@ -11,17 +11,17 @@
     </ul>
 
     <ul class="space-y-3 md:border-r-2 border-gray-500 flex  flex-col justify-center" >
-      <li>
+      <li class="space-x-2">
         <a href=""><i class="fa-brands fa-twitter"></i></a><span>Twitter</span>
       </li>
-      <li>
+      <li class="space-x-2">
         <a href=""><i class="fa-brands fa-medium"></i></a><span>Medium</span>
       </li>
-      <li>
+      <li class="space-x-2">
         <a href=""><i class="fa-brands fa-linkedin"></i></a
         ><span>Linkedln</span>
       </li>
-      <li>
+      <li class="space-x-2">
         <a href=""><i class="fa-brands fa-square-instagram"></i></a
         ><span>Instagram</span>
       </li>
