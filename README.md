@@ -4,6 +4,7 @@ Bu proje, Vue 2 kullanılarak oluşturulmuş bir "Movie" uygulamasıdır. Bu uyg
 
 ## Twitter Clone Demo Link
 Bu projenin [canlı haline ]([https://example.com](https://vue-movie-project.vercel.app/#/)) göz atabilirsiniz.
+https://vue-movie-project.vercel.app/#/
 
 ## Tech
 - Vue2
